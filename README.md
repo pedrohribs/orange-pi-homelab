@@ -49,26 +49,38 @@ The repository is intended to serve as both a learning journal and a technical p
 ## Repository Structure
 
 ```text
-docs/
-docker/
-scripts/
-diagrams/
-assets/
-```
+.
+├── assets/          # Images and other static repository assets
+├── diagrams/        # Architecture and network diagrams
+├── docker/          # Container and Docker Compose configurations
+├── docs/
+│   ├── adr/         # Architecture Decision Records
+│   ├── beginner/    # Beginner-friendly guides
+│   ├── learning/    # Learning notes and studied concepts
+│   ├── technical/   # Detailed technical documentation
+│   └── troubleshooting/ # Documented problems and solutions
+├── scripts/         # Automation, maintenance and backup scripts
+├── LICENSE
+├── README.md
+└── ROADMAP.md
 
 ---
 
 ## Project Status
 
-Current phase:
+**Current phase:** Phase 0 — Development Environment
 
 - [x] Development workstation setup
-- [x] Git
-- [x] GitHub
-- [ ] Docker Desktop
+- [x] Git installation and configuration
+- [x] GitHub CLI installation and authentication
+- [x] Remote repository creation
+- [x] Initial repository structure
+- [x] Initial documentation
+- [ ] Docker Desktop installation
+- [ ] Docker fundamentals
 - [ ] Orange Pi setup
 - [ ] Armbian installation
-- [ ] Docker Engine
+- [ ] Docker Engine installation
 - [ ] Pi-hole deployment
 
 ---

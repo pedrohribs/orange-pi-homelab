@@ -4,9 +4,30 @@
 
 - [x] Install Git
 - [x] Configure Git
-- [x] Configure GitHub CLI
-- [x] Create repository
+- [x] Install and configure GitHub CLI
+- [x] Create the remote GitHub repository
+- [x] Define the initial repository structure
+- [x] Create the initial README
+- [x] Create the project roadmap
+- [x] Add the MIT License
+- [x] Define Conventional Commits as the commit convention
 - [ ] Install Docker Desktop
+- [ ] Validate Docker Desktop installation
+
+---
+
+## Phase 0.5 — Docker Fundamentals
+
+- [ ] Understand containers and virtual machines
+- [ ] Understand images, containers and registries
+- [ ] Understand Docker Engine and Docker Desktop
+- [ ] Understand AMD64 and ARM64 compatibility
+- [ ] Run and inspect the first container
+- [ ] Manage container lifecycle
+- [ ] Study volumes and bind mounts
+- [ ] Study Docker networking
+- [ ] Study Docker Compose
+- [ ] Document Docker fundamentals
 
 ---
 
