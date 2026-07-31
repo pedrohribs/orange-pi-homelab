@@ -50,16 +50,17 @@ The repository is intended to serve as both a learning journal and a technical p
 
 ```text
 .
-├── assets/          # Images and other static repository assets
-├── diagrams/        # Architecture and network diagrams
-├── docker/          # Container and Docker Compose configurations
+├── assets/           # Images and other static repository assets
+├── diagrams/         # Architecture and network diagrams
+├── docker/           # Container and Docker Compose configurations
 ├── docs/
-│   ├── adr/         # Architecture Decision Records
-│   ├── beginner/    # Beginner-friendly guides
-│   ├── learning/    # Learning notes and studied concepts
-│   ├── technical/   # Detailed technical documentation
+│   ├── adr/          # Architecture Decision Records
+│   ├── architecture/ # Drawing of System Overview
+│   ├── beginner/     # Beginner-friendly guides
+│   ├── learning/     # Learning notes and studied concepts
+│   ├── technical/    # Detailed technical documentation
 │   └── troubleshooting/ # Documented problems and solutions
-├── scripts/         # Automation, maintenance and backup scripts
+├── scripts/          # Automation, maintenance and backup scripts
 ├── LICENSE
 ├── README.md
 └── ROADMAP.md
