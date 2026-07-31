@@ -11,8 +11,8 @@
 - [x] Create the project roadmap
 - [x] Add the MIT License
 - [x] Define Conventional Commits as the commit convention
-- [ ] Install Docker Desktop
-- [ ] Validate Docker Desktop installation
+- [x] Install Docker Desktop
+- [x] Validate Docker Desktop installation
 
 ---
 

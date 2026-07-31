@@ -2,13 +2,11 @@
 
 > A documented homelab project built on an Orange Pi 4 Pro, focused on Linux, Docker, networking and DevOps practices.
 
-## Project Philosophy
+## Project Scope
 
-This repository is not intended to be just another homelab tutorial.
+This repository documents the design, implementation and maintenance of a self-hosted infrastructure running on an Orange Pi 4 Pro.
 
-The main goal is to document every technical decision, implementation detail and troubleshooting process while building a small production-like infrastructure on an Orange Pi 4 Pro.
-
-Every service, script and configuration should have a documented reason for existing.
+Development environment preparation (Git, GitHub CLI, VS Code and other workstation tools) is intentionally considered out of scope. Those tools are prerequisites used to build the project, not part of the project itself.
 
 ---
 
@@ -69,7 +67,7 @@ The repository is intended to serve as both a learning journal and a technical p
 
 ## Project Status
 
-**Current phase:** Phase 0 — Development Environment
+**Sprint 0 — Development Environment** ✅ Completed
 
 - [x] Development workstation setup
 - [x] Git installation and configuration
@@ -77,7 +75,7 @@ The repository is intended to serve as both a learning journal and a technical p
 - [x] Remote repository creation
 - [x] Initial repository structure
 - [x] Initial documentation
-- [ ] Docker Desktop installation
+- [x] Docker Desktop installation
 - [ ] Docker fundamentals
 - [ ] Orange Pi setup
 - [ ] Armbian installation
