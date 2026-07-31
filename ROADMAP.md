@@ -1,30 +1,65 @@
-# Sprint 0
+# Roadmap
 
-- [x] Git
-- [x] VS Code
-- [ ] GitHub CLI
-- [ ] Docker Desktop
+## Phase 0 — Development Environment
 
-# Sprint 1
+- [x] Install Git
+- [x] Configure Git
+- [x] Configure GitHub CLI
+- [x] Create repository
+- [ ] Install Docker Desktop
 
-- [ ] Armbian
-- [ ] SSH
-- [ ] Docker
+---
 
-# Sprint 2
+## Phase 1 — Orange Pi
+
+- [ ] Install Armbian
+- [ ] Configure SSH
+- [ ] Configure Networking
+- [ ] Install Docker
+
+---
+
+## Phase 2 — Network Services
 
 - [ ] Pi-hole
+- [ ] DNS Configuration
+- [ ] DHCP Integration
 
-# Sprint 3
+---
+
+## Phase 3 — Storage
 
 - [ ] NAS
+- [ ] NVMe
+- [ ] Samba
 
-# Sprint 4
+---
+
+## Phase 4 — Media
 
 - [ ] Plex
+- [ ] ROM Storage
+- [ ] Save Synchronization
 
-# Sprint 5
+---
 
-- [ ] Monitoring
+## Phase 5 — Observability
 
-...
+- [ ] Grafana
+- [ ] Prometheus
+- [ ] Node Exporter
+
+---
+
+## Phase 6 — Backup
+
+- [ ] Automated Backup
+- [ ] Restore Validation
+
+---
+
+## Phase 7 — Security
+
+- [ ] Firewall
+- [ ] SSH Hardening
+- [ ] Fail2Ban
