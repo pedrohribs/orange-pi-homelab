@@ -2,6 +2,16 @@
 
 > A documented homelab project built on an Orange Pi 4 Pro, focused on Linux, Docker, networking and DevOps practices.
 
+## Project Philosophy
+
+This repository is not intended to be just another homelab tutorial.
+
+The main goal is to document every technical decision, implementation detail and troubleshooting process while building a small production-like infrastructure on an Orange Pi 4 Pro.
+
+Every service, script and configuration should have a documented reason for existing.
+
+---
+
 ## Project Goals
 
 This project aims to build a small but realistic self-hosted infrastructure running on an Orange Pi 4 Pro.
