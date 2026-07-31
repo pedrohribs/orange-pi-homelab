@@ -67,8 +67,6 @@ The repository is intended to serve as both a learning journal and a technical p
 
 ## Project Status
 
-**Sprint 0 — Development Environment** ✅ Completed
-
 - [x] Development workstation setup
 - [x] Git installation and configuration
 - [x] GitHub CLI installation and authentication
