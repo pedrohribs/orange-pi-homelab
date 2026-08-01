@@ -18,16 +18,16 @@
 
 ## Phase 0.5 — Docker Fundamentals
 
-- [ ] Understand containers and virtual machines
-- [ ] Understand images, containers and registries
-- [ ] Understand Docker Engine and Docker Desktop
-- [ ] Understand AMD64 and ARM64 compatibility
-- [ ] Run and inspect the first container
-- [ ] Manage container lifecycle
-- [ ] Study volumes and bind mounts
-- [ ] Study Docker networking
-- [ ] Study Docker Compose
-- [ ] Document Docker fundamentals
+- [x] Understand containers and virtual machines
+- [x] Understand images, containers and registries
+- [x] Understand Docker Engine and Docker Desktop
+- [x] Understand AMD64 and ARM64 compatibility
+- [x] Run and inspect the first container
+- [x] Manage container lifecycle
+- [x] Study volumes and bind mounts
+- [x] Study Docker networking
+- [x] Study Docker Compose
+- [x] Document Docker fundamentals
 
 ---
 
