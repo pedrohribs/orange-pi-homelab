@@ -40,27 +40,37 @@ The initial architecture consists of four primary services:
 - Lightweight Lab Environment (Technology experiments)
 
 The following diagram represents the initial architecture.
-  
-                Internet
-                    │
-                    │
-             Home Router
-                    │
-         ┌──────────┴──────────┐
-         │                     │
-    Windows Workstation    Orange Pi
-         │                     │
-         │ SSH                 │
-         │ Git                 │
-         │ VS Code             │
-         │                     │
-         └────────────┬────────┘
-                      │
-                   Docker
-      ┌───────────────┼──────────────┐
-      │               │              │
-   Pi-hole |         NAS/Plex |     Lab Containers
-   *
+
+```text
+                         Internet
+                            |
+                            v
+                      Home Router
+                            |
+           +----------------+----------------+
+           |                                 |
+           v                                 v
+  Windows Workstation                Orange Pi 4 Pro
+  - VS Code                          - Armbian Linux
+  - Git                              - Docker Engine
+  - SSH                                     |
+                                            v
+                                   +------------------+
+                                   | Docker Services  |
+                                   +------------------+
+                                   | Pi-hole          |
+                                   | NAS + Plex       |
+                                   | Emulator Storage |
+                                   | Lab Containers   |
+                                   +------------------+
+                                            |
+                                            v
+                                   Persistent Storage
+                                   - microSD / NVMe
+                                   - ROMs and saves
+                                   - Media files
+                                   - Service data
+```
 
 ---
 
