@@ -34,7 +34,7 @@ This makes containers significantly lighter and faster to start.
 
 Docker consists of several components:
 
-> Docker CLI
+### Docker CLI
 
 Command-line interface used to communicate with Docker Engine.
 
@@ -48,13 +48,13 @@ docker stop
 
 ---
 
-> Docker Engine
+### Docker Engine
 
 Responsible for creating and managing containers, images, volumes and networks.
 
 ---
 
-> Docker Desktop
+>### Docker Desktop
 
 Windows application that provides Docker Engine through WSL2.
 
@@ -62,13 +62,13 @@ This component is not used on the Orange Pi.
 
 ---
 
-> Docker Hub
+### Docker Hub
 
 Public registry used to download container images.
 
 ---
 
-> Images
+### Images
 
 An image is a read-only template used to create containers.
 
@@ -83,7 +83,7 @@ Images are immutable.
 
 ---
 
-> Containers
+### Containers
 
 A container is a running instance of an image.
 
@@ -93,7 +93,7 @@ Stopping or removing a container should not result in data loss when persistence
 
 ---
 
-> Container Lifecycle
+### Container Lifecycle
 
 Basic lifecycle:
 
@@ -115,7 +115,7 @@ docker rm
 
 ---
 
-> Port Mapping
+### Port Mapping
 
 Docker maps ports using the following syntax:
 
@@ -133,7 +133,7 @@ Requests sent to port 8080 on the host are forwarded to port 80 inside the conta
 
 ---
 
-> Docker Volumes
+### Docker Volumes
 
 Volumes provide persistent storage managed by Docker.
 
@@ -149,7 +149,7 @@ Removing a container does not remove its associated volume.
 
 ---
 
-> Bind Mounts
+### Bind Mounts
 
 Bind mounts expose an existing directory from the host system directly inside the container.
 
@@ -164,7 +164,7 @@ Changes made on the host are immediately visible inside the container.
 
 ---
 
-> Docker Networks
+### Docker Networks
 
 Docker creates isolated virtual networks for containers.
 

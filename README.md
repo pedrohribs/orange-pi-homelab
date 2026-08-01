@@ -27,8 +27,8 @@ The repository is intended to serve as both a learning journal and a technical p
 | SBC | Orange Pi 4 Pro |
 | RAM | 4 GB LPDDR5 |
 | Storage | SanDisk Ultra 32 GB microSD |
-| Optional Storage | Pichau Rover 256 GB NVMe |
-| Operating System | Armbian (planned) |
+| Aditional Storage | 256 GB NVMe SSD |
+| Operating System | Orange PI Debian |
 
 ---
 
