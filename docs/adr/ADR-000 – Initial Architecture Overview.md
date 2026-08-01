@@ -59,7 +59,7 @@ The following diagram represents the initial architecture.
                    Docker
       ┌───────────────┼──────────────┐
       │               │              │
-   Pi-hole         NAS/Plex      Lab Containers
+   Pi-hole |         NAS/Plex |     Lab Containers
    *
 
 ---
