@@ -51,7 +51,7 @@ The following diagram represents the initial architecture.
            |                                 |
            v                                 v
   Windows Workstation                Orange Pi 4 Pro
-  - VS Code                          - Armbian Linux
+  - VS Code                          - Linux
   - Git                              - Docker Engine
   - SSH                                     |
                                             v
