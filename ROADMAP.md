@@ -33,7 +33,7 @@
 
 ## Phase 1 — Orange Pi
 
-- [ ] Install Armbian
+- [ ] Install Linux
 - [ ] Configure SSH
 - [ ] Configure Networking
 - [ ] Install Docker

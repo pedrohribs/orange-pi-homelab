@@ -65,22 +65,6 @@ The repository is intended to serve as both a learning journal and a technical p
 
 ---
 
-## Project Status
-
-- [x] Development workstation setup
-- [x] Git installation and configuration
-- [x] GitHub CLI installation and authentication
-- [x] Remote repository creation
-- [x] Initial repository structure
-- [x] Initial documentation
-- [x] Docker Desktop installation
-- [ ] Docker fundamentals
-- [ ] Orange Pi setup
-- [ ] Armbian installation
-- [ ] Docker Engine installation
-- [ ] Pi-hole deployment
-
----
 ## Design Principles
 
 - Simplicity over complexity.
