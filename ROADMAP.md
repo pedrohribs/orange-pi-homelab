@@ -33,10 +33,28 @@
 
 ## Phase 1 — Orange Pi
 
-- [ ] Install Linux
-- [ ] Configure SSH
-- [ ] Configure Networking
-- [ ] Install Docker
+- [x] Validate Orange Pi 4 Pro hardware
+- [x] Validate microSD storage
+- [x] Validate NVMe storage
+- [x] Evaluate operating system options
+- [x] Install DietPi
+- [x] Configure initial DietPi settings
+- [x] Configure Wi-Fi
+- [x] Configure reserved IPv4 address
+- [x] Configure hostname and timezone
+- [x] Replace Dropbear with OpenSSH
+- [x] Configure administrative user and sudo
+- [x] Configure ED25519 SSH authentication
+- [x] Disable direct root SSH login
+- [x] Disable SSH password authentication
+- [x] Configure UFW firewall
+- [x] Configure microSD and NVMe storage roles
+- [x] Move DietPi userdata to NVMe
+- [x] Install Docker Engine
+- [x] Install Docker Compose
+- [x] Configure non-root Docker access
+- [x] Validate ARM64 container execution
+- [x] Validate system after reboot
 
 ---
 
@@ -51,7 +69,7 @@
 ## Phase 3 — Storage
 
 - [ ] NAS
-- [ ] NVMe
+- [x] NVMe
 - [ ] Samba
 
 ---
@@ -64,22 +82,14 @@
 
 ---
 
-## Phase 5 — Observability
-
-- [ ] Grafana
-- [ ] Prometheus
-- [ ] Node Exporter
-
----
-
-## Phase 6 — Backup
+## Phase 5 — Backup
 
 - [ ] Automated Backup
 - [ ] Restore Validation
 
 ---
 
-## Phase 7 — Security
+## Phase 6 — Security
 
 - [ ] Firewall
 - [ ] SSH Hardening

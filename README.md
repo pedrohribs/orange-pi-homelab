@@ -23,12 +23,44 @@ The repository is intended to serve as both a learning journal and a technical p
 ## Hardware
 
 | Component | Model |
-|-----------|-------|
+|---|---|
 | SBC | Orange Pi 4 Pro |
 | RAM | 4 GB LPDDR5 |
-| Storage | SanDisk Ultra 32 GB microSD |
-| Aditional Storage | 256 GB NVMe SSD |
-| Operating System | Orange PI Debian |
+| System Storage | SanDisk Ultra 32 GB microSD |
+| Additional Storage | 256 GB NVMe SSD |
+| Operating System | DietPi / Debian 13 (Trixie) |
+
+The microSD card is used for the operating system and system packages.
+
+The NVMe SSD is mounted at `/mnt/dietpi_userdata` and is used for persistent application data, Docker storage and future service data.
+
+The project can still be reproduced using only a sufficiently large microSD card. The NVMe SSD is part of the deployed architecture, but it is not a strict requirement for reproducing the homelab.
+
+---
+
+## Current Base Infrastructure
+
+The Orange Pi currently operates as a primarily headless Linux server.
+
+The validated baseline includes:
+
+- DietPi 10.6 based on Debian 13 (Trixie)
+- Linux 6.6 vendor kernel
+- Wi-Fi as the primary network interface
+- Reserved IPv4 address
+- OpenSSH
+- ED25519 public-key authentication
+- Administrative `dietpi` user with sudo privileges
+- Direct root SSH login disabled
+- SSH password authentication disabled
+- UFW firewall
+- Docker Engine
+- Docker Compose
+- NVMe-backed DietPi userdata
+- LXDE as an optional local recovery interface
+- Firefox as the fallback graphical browser
+
+Normal administration is performed remotely through SSH.
 
 ---
 
@@ -61,34 +93,3 @@ The repository is intended to serve as both a learning journal and a technical p
 ├── LICENSE
 ├── README.md
 └── ROADMAP.md
-
-```
----
-
-## Design Principles
-
-- Simplicity over complexity.
-- Every decision must be documented.
-- Every service runs inside a Docker container whenever possible.
-- Infrastructure should be reproducible.
-- Documentation is as important as implementation.
-- Security and backup are considered from the beginning.
-
----
-## Documentation
-
-The documentation is divided into multiple sections.
-
-| Folder | Description |
-|---------|-------------|
-| docs/beginner | Beginner-friendly guides |
-| docs/technical | Technical documentation |
-| docs/adr | Architecture Decision Records |
-| docs/troubleshooting | Problems and solutions |
-| docs/learning | Personal learning notes |
-
----
-
-## License
-
-This project is licensed under the MIT License.

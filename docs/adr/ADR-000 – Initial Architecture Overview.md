@@ -39,73 +39,38 @@ The initial architecture consists of four primary services:
 - Emulator Server (ROM and save storage)
 - Lightweight Lab Environment (Technology experiments)
 
-The following diagram represents the initial architecture.
+The following diagram represents the architecture after the initial Orange Pi deployment:
 
 ```text
                          Internet
-                            |
-                            v
-                      Home Router
-                            |
-           +----------------+----------------+
-           |                                 |
-           v                                 v
-  Windows Workstation                Orange Pi 4 Pro
-  - VS Code                          - Linux
-  - Git                              - Docker Engine
-  - SSH                                     |
-                                            v
-                                   +------------------+
-                                   | Docker Services  |
-                                   +------------------+
-                                   | Pi-hole          |
-                                   | NAS + Plex       |
-                                   | Emulator Storage |
-                                   | Lab Containers   |
-                                   +------------------+
-                                            |
-                                            v
-                                   Persistent Storage
-                                   - microSD / NVMe
-                                   - ROMs and saves
-                                   - Media files
-                                   - Service data
-```
-
+                             |
+                             v
+                       Home Router
+                             |
+            +----------------+----------------+
+            |                                 |
+            v                                 v
+   Windows Workstation                Orange Pi 4 Pro
+   - VS Code                          - DietPi / Debian 13
+   - Git                              - OpenSSH
+   - SSH                              - Docker Engine
+                                             |
+                                             v
+                                    +------------------+
+                                    | Docker Services  |
+                                    +------------------+
+                                    | Pi-hole          |
+                                    | NAS + Plex       |
+                                    | Emulator Storage |
+                                    | Lab Containers   |
+                                    +------------------+
+                                             |
+                              +--------------+--------------+
+                              |                             |
+                              v                             v
+                       microSD Storage                 NVMe Storage
+                       - Boot                          - Docker data
+                       - Operating System              - ROMs and saves
+                       - System packages               - Media files
+                                                       - Service data
 ---
-
-## Rationale
-
-This architecture was selected because it:
-
-- Defines a clear project scope.
-- Prioritizes educational value over feature count.
-- Matches the available hardware resources.
-- Supports incremental development through sprints.
-- Avoids unnecessary complexity.
-- Can be expanded in future revisions without redesigning the entire system.
-
----
-
-## Consequences
-
-### Positive
-
-- Well-defined project scope.
-- Easier documentation.
-- Simpler maintenance.
-- Lower hardware requirements.
-- Clear roadmap for future sprints.
-
-### Negative
-
-- Some commonly used homelab services are intentionally excluded.
-- Future architectural changes may require updates to this ADR.
-
----
-
-## Revision History
-
-| Version | Description |
-|----------|-------------|
-| 1.0 | Initial system architecture defined before implementation. |
